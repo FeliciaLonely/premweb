@@ -1,5 +1,33 @@
-[
-  {
-    "nama": "konto"
+{
+  "users": [
+    {
+      "name": "LEXXYVDEV",
+      "level": "admin",
+      "access": "full",
+      "isVerified": true
+    },
+    {
+      "name": "JohnDoe",
+      "level": "premium", 
+      "access": "full",
+      "isVerified": true
+    },
+    {
+      "name": "JaneSmith",
+      "level": "vip",
+      "access": "full", 
+      "isVerified": true
+    },
+    {
+      "name": "TestUser",
+      "level": "basic",
+      "access": "limited",
+      "isVerified": true
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2024-01-15T10:30:00Z",
+    "totalUsers": 4
   }
-]
+}
